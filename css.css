@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin: 30px 60px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: black solid 2px ;
+    padding-bottom: 20px;
+}
+#menu1:hover{
+    cursor: pointer;
+    color: aquamarine;
+    transition: 0.5s;
+}
+#menu2:hover{
+    cursor: pointer;
+    color: aquamarine;
+    transition: 0.5s;
+}
+#menu3:hover{
+    cursor: pointer;
+    color: aquamarine;
+    transition: 0.5s;
+}
+.base{
+    display: flex;
+    margin: 180px 200px 0px 250px;
+}
+.content{
+    font-size: 40px;
+    font-weight: 700;
+}
+.text{
+    width: 450px;
+}
+.aboutme{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 600px;
+}
+.photo{
+    margin-left: 250px;
+}
+img{
+    border-radius: 100px;
+    background-size: cover;
+}
+.butt{
+    margin-left: 250px;
+    background-color: coral;
+    width: 170px;
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+    border: black solid 2px;
+}
+.butt:hover{
+    color: black;
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+.butt:active{
+    background-color: black;
+    transition: 0.1s
+}
